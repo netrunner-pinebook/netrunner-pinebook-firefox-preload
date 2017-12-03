@@ -1,0 +1,14 @@
+Source: netrunner-pinebook-firefox-preload
+Section: admin
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.2
+
+Package: netrunner-pinebook-firefox-preload
+Architecture: all
+Recommends: ksystraycmd5
+Replaces: netrunner-system (<< 1.1.4), c1-netrunner-core-settings (<< 0+p8+git20160825)
+Breaks: netrunner-system (<< 1.1.4), c1-netrunner-core-settings (<< 0+p8+git20160825)
+Description: Firefox preloading configuration
+  This package provides the preloading configuration for Firefox.
